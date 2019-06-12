@@ -1,1 +1,11 @@
-Updare Now...
+apt-get -y install zip unzip
+cd /home/vps/public_html
+wget https://scrip.truepay.me/panelocs.zip
+
+mv panelocs.zip LTEOCS.zip
+
+unzip LTEOCS.zip
+
+rm -f LTEOCS.zip
+
+rm -f index.html
