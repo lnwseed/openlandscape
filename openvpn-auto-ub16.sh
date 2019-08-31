@@ -1,5 +1,5 @@
 #!/bin/bash
-#script by jiraphat yuenying for ubuntu 16
+#script by truepay.me for ubuntu 16
 
 if [[ $EUID -ne 0 ]]; then
    echo "This script must be run as root" 
@@ -19,7 +19,7 @@ apt-get install bc -y
 apt-get -y install openvpn easy-rsa;
 apt-get -y install python;
 
-wget -O /etc/openvpn/openvpn.tar "https://raw.githubusercontent.com/jiraphaty/auto-script-vpn/master/openvpn.tar"
+wget -O /etc/openvpn/openvpn.tar "https://raw.githubusercontent.com/lnwseed/openlandscape/master/openvpn.tar"
 wget -O /etc/openvpn/default.tar "https://raw.githubusercontent.com/jiraphaty/auto-script-vpn/master/default.tar"
 cd /etc/openvpn/
 tar xf openvpn.tar
@@ -72,7 +72,7 @@ chmod +x trial
 clear
 
 printf '###############################\n'
-printf '# Script by Jiraphat Yuenying #\n'
+printf '#       DEV | TRUEPAY.ME      #\n'
 printf '#                             #\n'
 
 printf '#                             #\n'
